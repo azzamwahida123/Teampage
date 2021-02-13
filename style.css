@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  background-color: #fafafa;
+}
+
+#container {
+  max-width: 1440px;
+  max-height: auto;
+  padding: 110px 254px 30px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+header h1 {
+  flex: 1;
+  margin-top: 0;
+}
+
+header h1 strong {
+  color: #333;
+}
+
+header p {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+main {
+  margin-bottom: 109px;
+}
+
+p {
+  margin-top: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+main .img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 238px;
+  height: 347px;
+}
+
+main .img .img-1,
+.img-3,
+.img-4,
+.img-6 {
+  margin-top: 96px;
+}
+
+.img-2,
+.img-5 {
+  margin-top: 195px;
+}
+
+main .img .img-1 span {
+  writing-mode: vertical-rl;
+  vertical-align: top;
+}
+
+main .img .img-2 span {
+  writing-mode: vertical-rl;
+  vertical-align: top;
+}
+
+main .img .img-3 span {
+  writing-mode: vertical-rl;
+  vertical-align: top;
+}
+
+main .img .img-4 span {
+  writing-mode: vertical-rl;
+  vertical-align: top;
+}
+
+main .img .img-5 span {
+  writing-mode: vertical-rl;
+  vertical-align: top;
+}
+
+main .img .img-6 span {
+  writing-mode: vertical-rl;
+  vertical-align: top;
+}
+
+footer span {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 375px) {
+  #container {
+    overflow: hidden;
+    padding: 71px 12px 70px;
+  }
+
+  header {
+    display: block;
+  }
+
+  header p strong {
+    font-size: 18px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  main {
+    margin-bottom: 88px;
+  }
+
+  img {
+    width: 139px;
+    height: 209px;
+  }
+
+  main .img .img-1,
+  .img-3,
+  .img-5 {
+    margin-top: 38px;
+  }
+
+  main .img .img-2,
+  .img-4,
+  .img-6 {
+    margin-top: 86px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  footer span {
+    display: flex;
+    justify-content: center;
+  }
+}
